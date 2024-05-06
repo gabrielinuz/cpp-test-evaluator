@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <memory>
-#include "TestEvaluator.hpp"
+#include "../TestEvaluator.hpp"
 
 using namespace std;
 
@@ -26,8 +26,6 @@ class Cup
         }
 
 };
-
-
 
 void cupIsNotEmpty()
 {

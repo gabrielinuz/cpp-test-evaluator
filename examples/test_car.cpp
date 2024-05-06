@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <memory>
-#include "TestEvaluator.hpp"
+#include "../TestEvaluator.hpp"
 
 using namespace std;
 
@@ -39,7 +39,7 @@ void testCarHasFuel()//Test para evaluar la presencia de combustible.
     int gas = car->getGas();
 
     //Assert
-    te->evaluate("Test Car Has Fuel", gas > 0);
+    te->evaluate("Car Has Fuel", gas > 0);
 }
 
 int main(int argc, char const *argv[])
